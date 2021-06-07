@@ -1,1 +1,24 @@
 /*  Add your styling here */
+/* general */
+body {
+  font-family: Roboto, Helvetic, sans-serif;
+  font-size: 1em;
+  line-height: 1.25em;
+}
+
+header,
+main,
+footer {
+  width: 100%;
+}
+
+/* HEADER */
+.banner {
+  width: 600px;
+  background: url(../HTML-CSS-Coursework-Week3/images/cake-unsplash-sml.jpg);
+  background-repeat: no-repeat;
+}
+
+/* MAIN */
+
+/* FOOTER */
