@@ -193,13 +193,18 @@ header{
     background-position: 0 -230px;
 }
 
+.logo-wrapper{
+    transform: scale(1.5);
+}
+
 h1{
     position: relative;
-    top: 33px;
+      top: 4px;
     color: white;
-    width: 50%;
-    margin-right: 40px;
-    padding: 15px 20px 15px 0;
+    width: 60%;
+    margin-right: 0px;
+    padding: 5px 9px 15px 0;
+
 }
 
 .hamburger{
@@ -209,7 +214,7 @@ h1{
   nav {
    display: block;
     position: relative;
-    top: 60px;
+    top: -55px;
     background-color: #ffe5d9;
     width: 100%;
     text-align: right;
@@ -256,7 +261,8 @@ transform:scale(1.1);
     
 .sml-img:hover{
 transform:scale(1.3);
-}
+box-shadow: 0px 10px 13px -7px #e47e4f, 5px 5px 15px 5px rgba(79,246,255,0);
+
 
 
 .footer-links{
@@ -271,31 +277,30 @@ body{
     width:900px;
 }
 
-header{
+/* header{
     height: 20vh;
-}
+} */
 
-.banner{
+/* .banner{
     background-position: 0 -230px;
-}
+} */
 
-h1{
+/* h1{
     position: relative;
     top: 55px;
     color: white;
     width: 45%;
     margin-right: 40px;
     padding: 15px 20px 15px 0;
-}
+} */
 
-.hamburger{
+/* .hamburger{
     display: none;
-}
+} */
 
   nav {
    display: block;
     position: relative;
-    top: 60px;
     width: 100%;
     text-align: right;
    
@@ -322,6 +327,9 @@ h2{
 
 .hero-description{
     font-size:1.2em;
+        margin-top: -20px;
+    line-height: 1.5em;
+}
 }
 
 .hero-img-container{
