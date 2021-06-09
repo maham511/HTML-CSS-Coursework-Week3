@@ -26,37 +26,72 @@ a:hover {
 
 /* HEADER */
 header {
-  height: 30vh;
+  height: 20vh;
 }
 
 .banner {
   height: inherit;
-  /* background-image: url(https://images.unsplash.com/photo-1518047601542-79f18c655718?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80); */
-  background-image: url(../images/brooke-lark-pGM4sjt_BdQ-unsplash.jpg);
+  /* background-image: url(../images/brooke-lark-pGM4sjt_BdQ-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 0px -70px;
+  background-position: 0px -70px; */
   background-color: #d400001a;
   background-blend-mode: overlay;
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+  flex-flow: wrap;
+  /* align-items: flex-end; */
   justify-content: space-between;
+  
+}
+
+.logo-wrapper{
+    width: 30%; 
+    height: 100%; 
+    order:-1;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    align-self: start;
+}
+
+.logo{
+    width: 50px;
+}
+
+.name{
+    font-weight: 900;
+    text-shadow: darkgoldenrod;
+}
+
+.h1-wrapper{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    position: relative;
+    top: -80px;
+
 }
 
 h1 {
   font-size: 1.2em;
   font-weight: 500;
   text-align: right;
-  width: 70%;
-  padding-right: 15px;
-      background-color: #fa8072;
+  width: 60%;
+  padding: 15px 10px 0px 0px;
+  background-color: #fa8072;
 
 }
 
 /* Nav */
+
+/* .hamburger-wrapper{
+    width: 17%;
+    height: 55%;
+} */
+
 .hamburger {
-  /* align-self: flex-start; */
+  align-self: flex-start;
   padding: 15px;
   width: 30px;
 }
@@ -82,8 +117,8 @@ section {
   padding: 10px 15px 0 15px;
 }
 
-h2{
-     font-family: 'Gochi Hand', cursive;
+.name,nav, h2{
+     font-family: 'Quicksand', cursive;
 }
 
 .hero-description{
@@ -178,8 +213,6 @@ h1{
     background-color: #ffe5d9;
     width: 100%;
     text-align: right;
-     font-family: 'Gochi Hand', cursive;
-   
   }
 
 
